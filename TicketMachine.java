@@ -29,6 +29,16 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    /**
+     * Segundo constructor de la clase TicketMachine que permite
+     * crear máquinas el precio de billete indicado por parámetro.
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;
+    }
 
     /**
      * Return the price of a ticket.
