@@ -75,4 +75,14 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    public int getTotal()
+    {
+        return total;
+    }
+    
+    public void showPrice()
+    {
+        System.out.println("The price of the ticket is " + price + " cents.");
+    }
 }
