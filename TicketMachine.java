@@ -95,4 +95,12 @@ public class TicketMachine
     {
         System.out.println("The price of the ticket is " + price + " cents.");
     }
+    
+    /**
+     * Metodo que simula la extraccion del dinero recaudado por la maquina
+     */
+    public void vaciar()
+    {
+        total=0;
+    }
 }
